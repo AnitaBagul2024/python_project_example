@@ -1,0 +1,11 @@
+from tkinter import *
+window=Tk()
+window.geometry("100x100")
+Lb=Listbox(window,bg="white",fg="blue")
+Lb.insert(1,'Python')
+Lb.insert(2,"JAVA")
+Lb.insert(3,"C++")
+Lb.insert(4,"Other")
+Lb.delete(1)
+Lb.pack()
+window.mainloop()

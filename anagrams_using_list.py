@@ -1,0 +1,15 @@
+str1=input("Enter the first string:")
+str2=input("Enter the second string:")
+L1=list(str1)
+L2=list(str2)
+print(L1)
+L1.sort()
+print(L1)
+L2.sort()
+str3=''.join(L1)
+print(str3)
+str4=''.join(L2)
+if(str3==str4):
+     print("Strings {} and {} are anagrams".format(str1,str2))
+else:
+    print("Strings {} and {} are  not anagrams".format(str1,str2))
